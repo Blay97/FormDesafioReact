@@ -21,12 +21,11 @@ export const Box = styled.div`
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 35px 50px 90px 50px;
+    padding: 20px 10px 63px 10px;
     @media (max-width: 700px) {
         width: 100%;
         margin: 0px;
-    }
-        
+    }     
 `
 
 export const Row = styled.div`
@@ -34,9 +33,7 @@ display: flex;
 margin: 15px 0px;
 justify-content: space-between;
 align-items: center;
-
 @media (max-width: 700px) {
- 
     flex-wrap: wrap; 
 }
 `
@@ -53,9 +50,7 @@ width: 30%;
  margin: 5px;
  @media (max-width: 700px) {
     width: 100%;
- 
 }
-
 `
 
 export const Span = styled.div`
@@ -72,7 +67,6 @@ align-self: stretch;
 flex-basis: 100%;
 padding: 7% 0 0 0;
 width: 100%;
-
 `
 
 export const Image = styled.div`
@@ -110,33 +104,13 @@ margin: 5px
 `
     
 export const DivSuccess = styled.div`
-display: flex,
-justify-content: center,
-align-items: "center,
+text-align: center
 `
 
 export const DivCheck = styled.div`
 display: flex; 
 flex-direction: row;
 align-items: center
-`
-export const ButtonBack = styled.button`
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 12px;
-gap: 6px;
-width: 81px;
-height: 40px;
-left: 670px;
-top: 941px;
-background: #0DBDBD;
-border-radius: 10px;
-border: 0px solid gray;
-color: white;
-
 `
 
 ;
